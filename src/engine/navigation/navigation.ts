@@ -1,5 +1,5 @@
 import type { Ticker } from "pixi.js";
-import { Assets, BigPool, Container } from "pixi.js";
+import { Assets, Container } from "pixi.js";
 
 import type { CreationEngine } from "../engine";
 

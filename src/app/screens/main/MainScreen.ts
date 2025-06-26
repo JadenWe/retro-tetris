@@ -1,5 +1,4 @@
 import { animate } from "motion";
-import type { AnimationPlaybackControls } from "motion/react";
 import type { Ticker } from "pixi.js";
 import { Container, Text } from "pixi.js";
 

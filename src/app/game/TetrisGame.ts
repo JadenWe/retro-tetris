@@ -189,11 +189,8 @@ export class TetrisGame extends Container {
     }
 
     private updateUI(): void {
-        const targetScore = this.gameState.getTargetScore();
         this.scoreText.text = `Score: ${this.gameState.score}`;
         this.levelText.text = `Level: ${this.gameState.level}`;
-
-
     }
     
     private updateNextPiecePreview(): void {
@@ -352,7 +349,7 @@ export class TetrisGame extends Container {
         this.dropTimer = 0;
     }
     
-    private async goHome(): void {
+    private async goHome(): Promise<void> {
         const { MainScreen } = await import('../screens/main/MainScreen');
         await engine().navigation.showScreen(MainScreen);
     }
