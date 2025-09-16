@@ -29,8 +29,8 @@
 * Spacebar for hard drop
 * ESC for pause/resume
 
-<img src="/public/assets/screenshot1.jpg" alt="" style="width: 200px; height: 300px;">
-<img src="/public/assets/screenshot2.jpg" alt="" style="width: 200px; height: 300px;">
-<img src="/public/assets/screenshot3.jpg" alt="" style="width: 200px; height: 300px;">
+<img src="/public/assets/screenshot1.png" alt="" style="width: 200px; height: 300px;">
+<img src="/public/assets/screenshot2.png" alt="" style="width: 200px; height: 300px;">
+<img src="/public/assets/screenshot3.png" alt="" style="width: 200px; height: 300px;">
 
 
